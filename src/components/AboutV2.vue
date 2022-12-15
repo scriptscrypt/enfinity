@@ -1,14 +1,16 @@
 <template>
 
-    <div class="context cf">
+    <div id="about" class="context cf">
+        <div class="mt32px"></div>
                <h4 class="w50percent">
                    ENFINITY -NMIT's E-Summit is a flagship national-level Conclave organized by  Enigma- Entrepreneurship cell of Nitte Meenakshi Institute of Technology.ENFINITY aims to bring early entrepreneurs, students, corporates, venture capitalists, and start-ups with ideas from all over the country to one platform.
                    A day encompassing of a Startup-Internship Expo, visionary competitions and insightful sessions will help open the realm of networking and broaden the horizon of business in the minds of the participants.
                 </h4>                
-            </div>
+    </div>
         <!-- From codepen backgrounds - start -->
-<div class="area" >
-            <ul class="circles">
+        <!-- Adding height to remove extra space after content -->
+<div class="area vh56" >
+            <ul class="circles mtFix">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -36,26 +38,23 @@
 <style scoped >
 
 /*Adding this to avoid margin conflicts*/
-  .mbFix{
-    margin-top: -136px;
-  }
+
 .w50percent{
-    width: 50%;
+    width: 64%;
 }   
 @media (max-width: 560px){
    .w50percent{
-        width: 88%;
-    }   
+       width: 72%;
+    }
+    .mtFix{
+        margin-top: -320px;
+    } 
 }
-
 
 
 /*From codepen - https://codepen.io/mohaiman/pen/MQqMyo */
 
 /* Styles start */
-
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -69,12 +68,11 @@
 }
 
 .area{
-    background: var(--purpleLight);  
+    background: var(--purpleDark);  
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
     width: 100%;   
-
     /*Adding this to avoid margin conflicts*/
-    margin-top: -160px;
+    margin-top: -144px;
 }
 
 .circles{
@@ -82,7 +80,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     overflow: hidden;
 }
 

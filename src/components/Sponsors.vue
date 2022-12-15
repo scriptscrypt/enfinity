@@ -1,5 +1,5 @@
 <template>
-    <div class="vh56 cf">
+    <div id="sponsors" class="vh56 cf">
         <HeadingText name="Sponsors"/>
         
         <div class="mp16">Yet to be announced</div>

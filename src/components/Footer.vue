@@ -1,6 +1,7 @@
 <template> 
 
-        <div class="nav ">
+        <img class="mFooterFix" src="../assets/svgs/waveFlatTop.svg" alt="">
+        <div class="nav  bgPurple">
             
             <!-- Footer Left start -->
             <div class="">
@@ -27,7 +28,7 @@
         
         <!-- Footer Center start -->    
         <div class="cf mp8">
-            <a href="p16">
+            <a href="#">
                 <img class="logoSize" src="../assets/svgs/logos/EnfinityLogoStd.png">
             </a>
             <div class="cf p8">@ All rights reserved - Entrepreneurship cell NMIT</div>
@@ -36,13 +37,17 @@
         
         <!-- Footer Right start -->
         <div class="cfw">            
-            <div class="rfw">
-                <div class="mp8">lorem - 90909090990</div>
-                <div class="mp8">lorem - 90909090990</div>
+            <div class="rfw alignL">
+                <div class="mp8">Dhanush - 8951826096</div>
+                <div class="mp8">Shaurya - 9102856807</div>
             </div>
             <div class="rfw">
-                <div class="mp8">lorem - 90909090990</div>
-                <div class="mp8">lorem - 90909090990</div>
+                <div class="mp8">Rohan K - 6363032865</div>
+                <div class="mp8">Ankush - 9108161001</div>
+            </div>
+            <div class="rfw alignL">
+                <div class="mp8 ">Samarth - 7023707541</div>
+                <div class="mp8">Sai Achuth - 9900268369</div>
             </div>
             
         </div>
@@ -58,6 +63,13 @@
 </script>
 
 <style >
+/* Fixing the footer top wave */
+.mFooterFix{
+    margin-bottom: -24px;
+}
+.txtWhite{
+    color: #fff;
+}
 .shadowGradB{
     background: linear-gradient(to top, var(--logoPurple), #fff);
 }
@@ -65,6 +77,9 @@
     background: linear-gradient(to bottom, var(--logoPurple), #fff);
 }
 .bgGrey{
+    background-color: var(--logoNeutral);
+}
+.bgPurple{
     background-color: var(--logoNeutral);
 }
 .logoSize{

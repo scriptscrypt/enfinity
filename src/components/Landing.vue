@@ -2,10 +2,10 @@
     <div class="bgLinear mt88px">
 
       <div class="cf fade">
-        <img class="w88 mp16" src="../assets/svgs/logos/EnfinityLogoBlack.png" alt="">
+        <img class="w72 mp16" src="../assets/svgs/logos/EnfinityLogoBlack.png" alt="">
         <a class="btn mp16" href=""> Register now </a>
       </div>
-      <img class="wFull mTopFix" src="../assets/svgs/waveFlat.svg" />
+      <img class="wFull mTopFix" src="../assets/svgs/waveFlatBottom.svg" />
     </div>
   
   </template>
@@ -25,8 +25,8 @@
   body{
     margin: 0;
   }
-  .w88{
-    width: 88%;
+  .w72{
+    width: 72%;
   }
   .mTopFix{
     margin-bottom: -32px
@@ -47,7 +47,7 @@
   }
   .btn{
     width: fit-content;
-    background-color: var(--logoPurple);
+    background-color: var(--purpleDark);
     color: #fff;
     border-radius: 2px;
   }

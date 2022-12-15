@@ -1,24 +1,22 @@
 <template>
-
  
-        
         <a href="#" class="card cf"> 
-            <img class="cardImg" src="../assets/card/imgone.jpg" alt="">
+            <img class="cardImg" src="../assets/card/img2.jpg"  alt="">
             <div class="mp8"> {{evtName}} </div>
         </a>
-
 
 </template>
 
 <script>
 
     export default {
-        name:"CardVue",
+        name:"Card2Vue",
         components:{
                 
             },
         props:{
             evtName: String,
+            imgUrl: String,
            
         }   
     }
