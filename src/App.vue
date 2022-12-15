@@ -2,25 +2,35 @@
 
   <NavBar/>
   <LandingVue/>
-  <AboutVue/>
+  <AboutV2/>
+  <CardsWrapper/>
   <TimelineVue/>  
+  <SponsorsVue/>  
+  <FooterVue/>
+
 
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
 import LandingVue from './components/Landing.vue';
-import AboutVue from "./components/About.vue"
+import AboutV2 from './components/AboutV2.vue';
 import TimelineVue from "./components/Timeline.vue"
+import FooterVue from "./components/Footer.vue" 
+import SponsorsVue from "./components/Sponsors.vue" 
+import CardsWrapper from "./components/CardsWrapper.vue"
 
 export default {
   name: 'App',
   components: {
     NavBar,
     LandingVue,
-    AboutVue,
-    TimelineVue
-  }
+    TimelineVue,
+    SponsorsVue,
+    AboutV2,
+    FooterVue,
+    CardsWrapper
+}
 }
 </script>
 
@@ -30,11 +40,17 @@ export default {
 :root{
   --logoPurple: #653390;
   --logoBlue: #222878;
+  --grey: #444;
+  --logoNeutral: #6533903f;
+  --purpleLight: #2b1e37;
 }
 /* Root that contains variables - end */
 
 body{
   margin: 0;
+}
+.vh56{
+  height: 56vh;
 }
 
 </style>

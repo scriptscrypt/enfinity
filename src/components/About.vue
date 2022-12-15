@@ -1,7 +1,9 @@
 <template>
-    <div class="vh72 cf">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eaque voluptatibus sint ex amet at sit, cum dolores provident sed explicabo doloribus animi! Et incidunt, molestias deleniti corporis ex eaque.
-    </div>
+    <div class="vh72 bglogoPri mNeg32 cf">
+        ENFINITY -NMIT's E-Summit is a flagship national-level Conclave organized by  Enigma- Entrepreneurship cell of Nitte Meenakshi Institute of Technology.ENFINITY aims to bring early entrepreneurs, students, corporates, venture capitalists, and start-ups with ideas from all over the country to one platform.
+         A day encompassing of a Startup-Internship Expo, visionary competitions and insightful sessions will help open the realm of networking and broaden the horizon of business in the minds of the participants.
+
+</div>
 </template>
 
 <script>
@@ -30,6 +32,12 @@ export default {
     background-image: linear-gradient(to left, #fff, var(--logoPurple));
     /* background-repeat: no-repeat; */
     /* background-position: center; */
+}
+.bglogoPri{
+    background-color: var(--logoPurple);
+}
+.mNeg32{
+    margin-top: -32px;
 }
 
 /* Yet to be worked */

@@ -1,5 +1,5 @@
 <template>
-    <div class="nav navSticky shadowB">
+    <div class="nav navSticky">
         <!-- Navbar Left  start-->
         <div class="mp8"> 
             <a href="#">
@@ -19,7 +19,11 @@
         
         
         <!-- Navbar Right start -->
-        <div class="mp8">Contact</div>
+        <div class="mp8">
+            <a href="https://ecellnmit.in" target="_blank">
+                <img class="logoSize" src="../assets/svgs/logos/EnigmaLogo.png" alt="">
+            </a>
+        </div>
         <!-- Navbar Right end -->
     </div>
 </template>

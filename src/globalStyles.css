@@ -2,7 +2,6 @@
   --f1: 56px;
   --f2: 32px;
   --f3: 24px;
-  --grey: rgb(186, 186, 186);
 }
 
 .txtPri{
@@ -97,6 +96,12 @@ body{
   }
   .p8{
     padding:8px;
+  }
+  .p16{
+    padding:16px;
+  }
+  .p32{
+    padding:32px;
   }
   .p80{
     padding:8px 0px;

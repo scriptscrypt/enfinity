@@ -1,11 +1,11 @@
 <template>
-    <div class="bgLinear">
+    <div class="bgLinear mt88px">
 
       <div class="cf fade">
-        <img src="../assets/svgs/logos/EnfinityLogoBlack.svg" alt="">
-        <a class="btn mp8" href=""> Register now </a>
+        <img class="w88 mp16" src="../assets/svgs/logos/EnfinityLogoBlack.png" alt="">
+        <a class="btn mp16" href=""> Register now </a>
       </div>
-    
+      <img class="wFull mTopFix" src="../assets/svgs/waveFlat.svg" />
     </div>
   
   </template>
@@ -25,8 +25,20 @@
   body{
     margin: 0;
   }
+  .w88{
+    width: 88%;
+  }
+  .mTopFix{
+    margin-bottom: -32px
+  }
+  .wFull{
+    width: 100vw;
+  }
   .vh72{
       height: 72vh;
+  }
+  .vh56{
+    height: 56vh;
   }
   .bgLinear{
     /* background-image: url("../assets/svgs/bgLinear.svg"); */
@@ -37,12 +49,19 @@
     width: fit-content;
     background-color: var(--logoPurple);
     color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 0px 2px 2px var(--grey);
+    border-radius: 2px;
+  }
+  .btn:hover{
+    box-shadow: 0px 0px 8px 0px var(--logoPurple);
   }
   .mt64px{
-    margin-top: -64px;
+    margin-top: 64px;
   }
+  .mt88px{
+    margin-top: 104px;
+  }
+
+
   /* Fade css animation start*/
   .fade{
     opacity: 1;
