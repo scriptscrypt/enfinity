@@ -1,5 +1,7 @@
+import VueCollapsiblePanel from '@dafcoe/vue-collapsible-panel'
 import { createApp } from 'vue'
 import App from './App.vue'
 import "./globalStyles.css"
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(VueCollapsiblePanel).mount('#app')

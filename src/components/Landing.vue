@@ -1,11 +1,11 @@
 <template>
-    <div class="bgLinear mt88px">
+    <div class="bgLinear mt88px ">
 
       <div class="cf fade">
         <img class="w72 mp16" src="../assets/svgs/logos/EnfinityLogoBlack.png" alt="">
         <a class="btn mp16" href=""> Register now </a>
       </div>
-      <img class="wFull mTopFix" src="../assets/svgs/waveFlatBottom.svg" />
+      <img class="wFull wave marginFix" src="../assets/svgs/waveFlatBottom.svg" />
     </div>
   
   </template>
@@ -28,8 +28,33 @@
   .w72{
     width: 72%;
   }
-  .mTopFix{
-    margin-bottom: -32px
+  .marginFix{
+    margin-bottom: -88px;
+  }
+  /**/
+  @media (max-width: 600px){
+    .marginFix{
+      margin-bottom: -136px;
+    }
+    .context{
+        position: relative;
+        top:160px !important;
+    }
+  }
+  @media (max-width: 500px){
+    .marginFix{
+      margin-bottom: -170px;
+    }
+  }
+  @media (max-width: 432px){
+  .wave{
+    display: none;
+  }
+  .context{
+        position: relative;
+        top:328px !important;
+    }
+
   }
   .wFull{
     width: 100vw;

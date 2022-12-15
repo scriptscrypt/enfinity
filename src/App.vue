@@ -4,6 +4,7 @@
   <LandingVue/>
   <AboutV2/>
   <CardsWrapper/>
+  <FaqsWrapper/>
   <TimelineVue/>  
   <SponsorsVue/>  
   <FooterVue/>
@@ -19,6 +20,7 @@ import TimelineVue from "./components/Timeline.vue"
 import FooterVue from "./components/Footer.vue" 
 import SponsorsVue from "./components/Sponsors.vue" 
 import CardsWrapper from "./components/Events.vue"
+import FaqsWrapper from './components/FaqsWrapper.vue';
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     SponsorsVue,
     AboutV2,
     FooterVue,
-    CardsWrapper
+    CardsWrapper,
+    FaqsWrapper
 }
 }
 </script>
@@ -47,10 +50,12 @@ export default {
 }
 /* Root that contains variables - end */
 
-body{
+html, body{
   margin: 0;
   scroll-behavior: smooth !important;
-  transition: all;
+  transition: all; 
+  overflow-x: hidden !important;
+  height: 100vh;
 }
 .vh56{
   height: 56vh;

@@ -42,15 +42,17 @@
 .w50percent{
     width: 64%;
 }   
-@media (max-width: 560px){
+@media (max-width: 950px){
    .w50percent{
        width: 72%;
     }
-    .mtFix{
-        margin-top: -320px;
-    } 
 }
-
+@media (max-width:432px){
+    .vh56{  
+        height: fit-content;
+    }
+    
+}
 
 /*From codepen - https://codepen.io/mohaiman/pen/MQqMyo */
 
@@ -61,16 +63,16 @@
 }
 
 .context {
-    width: 100%;
+    width: 100vw;
     position: relative;
-    top:0;
+    top:88px;
     color: #fff;
 }
 
 .area{
     background: var(--purpleDark);  
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
-    width: 100%;   
+    width: 100vw;   
     /*Adding this to avoid margin conflicts*/
     margin-top: -144px;
 }
