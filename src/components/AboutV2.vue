@@ -2,15 +2,15 @@
 
     <div id="about" class="context cf">
         <div class="mt32px"></div>
-               <h4 class="w50percent">
-                   ENFINITY -NMIT's E-Summit is a flagship national-level Conclave organized by  Enigma- Entrepreneurship cell of Nitte Meenakshi Institute of Technology.ENFINITY aims to bring early entrepreneurs, students, corporates, venture capitalists, and start-ups with ideas from all over the country to one platform.
+               <h4 class="w50percent txtCenter">
+                   ENFINITY -NMIT's E-Summit is a flagship national-level Conclave organized by  Enigma- Entrepreneurship cell of Nitte Meenakshi Institute of Technology. ENFINITY aims to bring early entrepreneurs, students, corporates, venture capitalists, and start-ups with ideas from all over the country to one platform.
                    A day encompassing of a Startup-Internship Expo, visionary competitions and insightful sessions will help open the realm of networking and broaden the horizon of business in the minds of the participants.
                 </h4>                
     </div>
         <!-- From codepen backgrounds - start -->
         <!-- Adding height to remove extra space after content -->
-<div class="area vh56" >
-            <ul class="circles mtFix">
+<div class="area vh56 " >
+            <ul class="circles mtFix ">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -36,7 +36,12 @@
 </script>
 
 <style scoped >
-
+.txtCenter{
+    text-align: center;
+}
+.zMinus{
+    z-index: -1;
+}
 /*Adding this to avoid margin conflicts*/
 
 .w50percent{

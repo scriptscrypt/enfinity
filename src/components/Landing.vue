@@ -1,9 +1,10 @@
 <template>
-    <div class="bgLinear mt88px ">
+    <div id="#" class="bgLinear mt88px ">
 
       <div class="cf fade">
         <img class="w72 mp16" src="../assets/svgs/logos/EnfinityLogoBlack.png" alt="">
-        <a class="btn mp16" href=""> Register now </a>
+        <h2 class="txtPri"><i> 23rd DECEMBER 2022 </i></h2>
+        <a class="btn mp16" target="_blank" href="https://unstop.com/festival/enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-80358"> Register now </a>
       </div>
       <img class="wFull wave marginFix" src="../assets/svgs/waveFlatBottom.svg" />
     </div>
@@ -18,10 +19,12 @@
       
     }
   }
-  </script>
+  </script>  
   
   <style>
-  
+  .txtPri{
+    color: var(--logoPurple) !important;
+  }
   body{
     margin: 0;
   }

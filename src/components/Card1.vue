@@ -1,8 +1,8 @@
 <template>
  
-        <a href="#" class="card cf"> 
-            <img class="cardImg" src="../assets/card/img1.jpg"  alt="">
-            <div class="mp8"> {{evtName}} </div>
+        <a target="_blank" href="https://unstop.com/festival/enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-80358" class="card cf"> 
+            <img class="cardImg" src="../assets/card/img1.png"  alt="">
+            <div class="mp8"> Click to register </div>
         </a>
 
 </template>
@@ -11,45 +11,43 @@
 
     export default {
         name:"Card1Vue",
-        components:{
-                
-            },
-        props:{
-            evtName: String,
-            imgUrl: String,
-           
-        }   
+    
     }
 </script>
 
 <style>
     .bgColor{
-        /* background-color:var(--logoBlue); */
+        background-color:var(--logoNeutral);
     }
     .shadow{
         box-shadow: 0px 0px 1px 1px var(--logoPurple);
     }
     .card{
         width: 300px;
+        height: 288px;
+        object-fit: cover;
         border-radius: 32px;
         transition: 0.1s ease-in;
+        color: #fff;
     }
     .cardImg{
-        width: 100%;
+        width: 88%;
+
         border-radius: 32px;
-        object-fit: cover;
+        object-fit: contain;
         transition: 0.1s ease-in;
     }
     .cardImg:hover{
+        content: "afsdfas";
+        /* opacity: 0.8; */
         border-radius: 40px;
     }
-    .cardImg::after{
-        opacity: 0.5;
-    }
     .card:hover{
-        width: 288px;
+        width: 280px;
         transition: 0.1s ease-in;
         cursor: pointer;
+        background-color: var(--hoverNeutral);
+        color: var(--purpleDark);
     }
     /* 15Dec2022 start*/
 

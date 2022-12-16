@@ -1,8 +1,8 @@
 <template>
  
-    <a target="_blank" href="https://forms.gle/wdxwyBiYjDUAqewW8" class="card cf"> 
-        <img class="cardImg" src="../assets/card/img2.png"  alt="">
-        <div class=""> Click to register </div>
+    <a target="_blank" href="https://unstop.com/competition/business-marathon-enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-558308?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved" class="card cf"> 
+        <img class="cardImg" src="../assets/card/img4.png"  alt="">
+        <div class="mp8"> Click to register </div>
     </a>
 
 </template>
@@ -10,7 +10,7 @@
 <script>
 
 export default {
-    name:"Card2Vue",
+    name:"Card4Vue",
 
 }
 </script>
@@ -25,25 +25,22 @@ export default {
 .card{
     width: 300px;
     height: 288px;
-    object-fit: cover;
     border-radius: 32px;
     transition: 0.1s ease-in;
     color: #fff;
 }
 .cardImg{
-    width: 88%;
-    height: 72%;
+    height: 96%;
     border-radius: 32px;
-    object-fit: contain;
+    object-fit: cover;
     transition: 0.1s ease-in;
 }
 .cardImg:hover{
-    content: "afsdfas";
-    /* opacity: 0.8; */
+    /* width: 72%;
+    height: 72%; */
     border-radius: 40px;
 }
 .card:hover{
-    width: 280px;
     transition: 0.1s ease-in;
     cursor: pointer;
     background-color: var(--hoverNeutral);

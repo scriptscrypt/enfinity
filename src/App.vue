@@ -4,9 +4,9 @@
   <LandingVue/>
   <AboutV2/>
   <CardsWrapper/>
-  <FaqsWrapper/>
   <TimelineVue/>  
   <SponsorsVue/>  
+  <FaqsWrapper/>
   <FooterVue/>
 
 
@@ -38,6 +38,12 @@ export default {
 </script>
 
 <style>
+/*Fonts from google start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa&family=Josefin+Sans&family=Koulen&family=Neucha&family=Nova+Cut&family=Righteous&family=Roboto+Condensed:wght@300&family=Roboto+Mono&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:wght@300&family=Shadows+Into+Light&family=Teko:wght@300&display=swap');
+
+/*Fonts from google end */
+
 
 /* Root that contains variables - start */
 :root{
@@ -45,8 +51,9 @@ export default {
   --logoBlue: #222878;
   --grey: #444;
   /* --logoNeutral: #6533903f; */
-  --logoNeutral: #b5aabe;
+  --logoNeutral: #b5aabe; 
   --purpleDark: #2b1e37;
+  --hoverNeutral: #F8F8F8;
 }
 /* Root that contains variables - end */
 
@@ -56,6 +63,7 @@ html, body{
   transition: all; 
   overflow-x: hidden !important;
   height: 100vh;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 .vh56{
   height: 56vh;
