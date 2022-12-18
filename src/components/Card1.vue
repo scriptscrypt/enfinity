@@ -1,8 +1,8 @@
 <template>
  
-        <a target="_blank" href="https://unstop.com/festival/enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-80358" class="card cf"> 
+        <a target="_blank" href="https://wa.me/919879346581" class="card cf"> 
             <img class="cardImg" src="../assets/card/img1.png"  alt="">
-            <div class="mp8"> Click to register </div>
+            <div class="mp8"> Click to contact the registrar </div>
         </a>
 
 </template>

@@ -6,7 +6,7 @@
 
             <FaqsVue 
             question="What is Enfinity-Esummit '22 ?" 
-            answer="Enfinity is the national level flagship event of Enigma-Ecell NMIT.The day focuses on events that will make participants aware of the business environment and motivate them to build an innovative start-up"/>
+            answer="Enfinity is the national level flagship event of Enigma-Ecell NMIT. The day focuses on events that will make participants aware of the business environment and motivate them to build an innovative start-up"/>
 
             <FaqsVue 
             question="Is there any registration fee for the events ?" 

@@ -92,16 +92,17 @@ export default {
 /* Trying the hamburger menu 16Dec2022 */
 
 /* Styles from https://www.npmjs.com/package/vue3-burger-menu */
+
 .bm-burger-button {
       position: absolute;
       width: 32px;
       height: 24px;
       left: 32px;
-      top: 24px;
+      top: 24px !important;
       cursor: pointer;
     }
     .bm-burger-bars {
-      background-color: var(--purpleDark);
+      background-color: var(--purpleDark) !important;
     }
     .line-style {
       position: absolute;
@@ -116,7 +117,7 @@ export default {
       cursor: pointer;
     }
     .bm-cross {
-      background: #bdc3c7;
+      background: #ffffff !important;
     }
     .bm-cross-button {
       height: 24px;
@@ -129,7 +130,7 @@ export default {
       z-index: 1000; /* Stay on top */
       top: 0;
       left: 0;
-      background-color: var(--purpleDark); /* Black*/
+      background-color: var(--purpleDark) !important; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
       transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
@@ -139,7 +140,7 @@ export default {
       /* background: rgba(0, 0, 0, 0.3); */
     }
     .bm-item-list {
-      color: #ffffff;
+      color: #ffffff !important;
       margin-left: 10%;
       font-size: 20px;
     }
@@ -151,7 +152,7 @@ export default {
     .bm-item-list > * > span {
       margin-left: 10px;
       font-weight: 700;
-      color: white;
+      color: white !important;
     }
 /* Styles for hamburger end*/
 
@@ -176,7 +177,7 @@ export default {
         left: 104px;
         width: 100%;
         height: 88vh;
-        background-color: var(--purpleDark);
+        background-color: var(--purpleDark) !important;
         color: #fff;
     }
     .zFix{
