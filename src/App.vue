@@ -4,7 +4,7 @@
   <LandingVue/>
   <AboutV2/>
   <CardsWrapper/>
-  <TimelineVue/>  
+  <!-- <TimelineVue/>   -->
   <SponsorsVue/>  
   <FaqsWrapper/>
   <FooterVue/>
@@ -16,7 +16,7 @@
 import NavBar from './components/NavBar.vue';
 import LandingVue from './components/Landing.vue';
 import AboutV2 from './components/AboutV2.vue';
-import TimelineVue from "./components/Timeline.vue"
+// import TimelineVue from "./components/Timeline.vue"
 import FooterVue from "./components/Footer.vue" 
 import SponsorsVue from "./components/Sponsors.vue" 
 import CardsWrapper from "./components/Events.vue"
@@ -27,7 +27,7 @@ export default {
   components: {
     NavBar,
     LandingVue,
-    TimelineVue,
+    // TimelineVue,
     SponsorsVue,
     AboutV2,
     FooterVue,

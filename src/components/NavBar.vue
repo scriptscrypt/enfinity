@@ -12,8 +12,8 @@
         <div class="rf">
             <a href="#about" class="navLink mp8">About</a>
             <a href="#events" class="navLink mp8">Events</a>
-            <a href="#timeline" class="navLink mp8">Timeline</a>
             <a href="#sponsors" class="navLink mp8">Sponsors</a>
+            <a href="#faqs" class="navLink mp8">FAQs</a>
         </div>
         <!-- Navbar Center end -->
         
@@ -57,7 +57,7 @@
         <Menu>
         <a href="#about" class="navLink mp8">About</a>
             <a href="#events" class="navLink mp8">Events</a>
-            <a href="#timeline" class="navLink mp8">Timeline</a>
+            <!-- <a href="#timeline" class="navLink mp8">Timeline</a> -->
             <a href="#sponsors" class="navLink mp8">Sponsors</a>
             <a href="#faqs" class="navLink mp8">FAQs</a>
             <a href="#contactus" class="navLink mp8">Contact us</a>

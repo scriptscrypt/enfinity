@@ -5,7 +5,7 @@
     <!-- Faq questions are to be added here -->
 
             <FaqsVue 
-            question="What is Enfinity-Esummit '22 ?" 
+            question="What is Enfinity-EConclave '22 ?" 
             answer="Enfinity is the national level flagship event of Enigma-Ecell NMIT. The day focuses on events that will make participants aware of the business environment and motivate them to build an innovative start-up"/>
 
             <FaqsVue 
@@ -25,7 +25,7 @@
             answer="Any registered startup can display their product to the crowd at NMIT "/>
 
             <FaqsVue question="What is the cash prize associated with different events ?"
-            answer="The totals cash prize pool for Enfinity 2022 is INR 30000 with other exciting additional goodies. To know the prize money for individual events,click on the register button"/>
+            answer="The totals cash prize pool for Enfinity 2022 is INR 30000 with other exciting additional goodies. To know the prize money for individual events, click on the register button"/>
         </div>
     </div>
 </template>

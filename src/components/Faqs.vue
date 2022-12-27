@@ -5,7 +5,7 @@
         <template #title>
             {{question}}
         </template>
-        <template #content>
+        <template #content>  
             {{answer}}
         </template>
     </vue-collapsible-panel>
@@ -21,6 +21,7 @@ import '@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css'
 //   VueCollapsiblePanel,
 // } from '@dafcoe/vue-collapsible-panel'
 
+
  export default {
     name: "FaqsVue",
     props: {
@@ -31,6 +32,6 @@ import '@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css'
 }
 </script>
 
-<style scoped>
+<style>
    
 </style>
