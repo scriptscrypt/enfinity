@@ -1,8 +1,9 @@
 <template>
  
-    <a target="_blank" href="https://forms.gle/wdxwyBiYjDUAqewW8" class="card cf"> 
+    <!-- <a target="_blank" href="https://forms.gle/wdxwyBiYjDUAqewW8" class="card cf">  -->
+    <a target="" href="#" class="card cf"> 
         <img class="cardImg" src="../assets/card/img2.png"  alt="">
-        <div class=""> Click to register </div>
+        <!-- <div class=""> Click to register </div> -->
     </a>
 
 </template>
@@ -43,7 +44,7 @@ export default {
     border-radius: 40px;
 }
 .card:hover{
-    width: 280px;
+    /* width: 280px; */
     transition: 0.1s ease-in;
     cursor: pointer;
     background-color: var(--hoverNeutral);

@@ -1,8 +1,10 @@
 <template>
  
-        <a target="_blank" href="https://wa.me/919879346581" class="card cf"> 
+        <!-- <a target="_blank" href="https://wa.me/919879346581" class="card cf">  -->
+        <a target="" href="#" class="card cf"> 
             <img class="cardImg" src="../assets/card/img1.png"  alt="">
-            <div class="mp8"> Click to contact the registrar </div>
+            <!-- <div class="mp8"> Click to contact the registrar </div> -->
+
         </a>
 
 </template>
@@ -43,7 +45,7 @@
         border-radius: 40px;
     }
     .card:hover{
-        width: 280px;
+        /* width: 280px; */
         transition: 0.1s ease-in;
         cursor: pointer;
         background-color: var(--hoverNeutral);

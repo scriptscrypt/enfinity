@@ -1,8 +1,9 @@
 <template>
  
-    <a target="_blank" href="https://unstop.com/competition/business-marathon-enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-558308?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved" class="card cf"> 
+    <!-- <a target="_blank" href="https://unstop.com/competition/business-marathon-enfinity-nitte-meenakshi-institute-of-technology-nmit-yelahanka-558308?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved" class="card cf">  -->
+    <a target="" href="#" class="card cf"> 
         <img class="cardImg" src="../assets/card/img4.png"  alt="">
-        <div class="mp8"> Click to register </div>
+        <!-- <div class="mp8"> Click to register </div> -->
     </a>
 
 </template>
